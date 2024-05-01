@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 
-model=joblib.load("C:/Users/user/OneDrive/Desktop/nlp/NLP/host/sentiment-model.pkl")
+model=joblib.load("sentiment-model.pkl")
 
 sentiment_labels={'1':'Positive','0':'Negative'}
 
